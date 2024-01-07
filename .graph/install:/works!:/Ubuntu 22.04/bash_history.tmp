@@ -1,0 +1,64 @@
+sudo apt install chromium-browser git ansible
+ls
+cd amdgpu-pro/
+ls
+cd lib/x86_64-linux-gnu/
+ls
+cd ..
+ls
+cd amdgcn/
+ls
+cd ..
+sudo su
+cd
+cd Downloads/
+ls
+mkdir try
+cd try/
+sudo su
+cd /opt/
+ls
+cd /etc/OpenCL/
+ls
+cd vendors/
+ls
+amdgpu-pro-install
+sudo apt install ./amdgpu-install_5.7.50702-1_all.deb 
+chmod +x install-opencl-amd.sh 
+sudo ./install-opencl-amd.sh 
+sudo apt install binutils build-essential 
+sudo ./install-opencl-amd.sh 
+ls
+clinfo
+sudo apt install clinfo
+cd
+cd /opt/amdgpu-pro/lib/x86_64-linux-gnu/
+ls
+clinfo 
+amdgpu-install --usecase=opencl --no-dkms
+sudo radeontop
+sudo apt install radeontop
+sudo radeontop
+cd
+cd /opt/
+ls
+cd rocm
+cd bin/
+ls
+sudo usermod -a -G render me
+sudo apt install opencl-headers
+nano aipg-herominers.sh
+chmod +x aipg-herominers.sh 
+./aipg-herominers.sh 
+ln -srf aipg-herominers.sh xmrig-6.21.0
+cd xmrig-6.21.0/
+ls
+./xmrig 
+./aipg-herominers.sh 
+./xmrig 
+./aipg-herominers.sh 
+sudo amdgpu-install --no-dkms --opencl=rocm
+./aipg-herominers.sh 
+clinfo 
+sudo apt install screen
+sudo ./aipg-herominers.sh 
